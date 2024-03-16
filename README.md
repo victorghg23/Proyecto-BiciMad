@@ -62,3 +62,14 @@ Además, por supuesto, de un ahorro interesante de dinero en caso de que utilice
 Al meterse en la terminal y poner en marcha este código, deberá poner:
 
 _--estacion (numero de la estación en la que se encuentra) --monumento ('nombre del monumento')_
+
+Ejemplo 👇🏼
+
+```
+(base) MacBook-Pro-de-Victor-2:mi código victor$ python ProyectoBiciMad.py --estacion 12 --monumento "Abogados"
+             Monumento  ... Distancia al Monumento
+0  Abogados Laboristas  ...                   0.11
+
+[1 rows x 4 columns]
+La estación más cercana al monumento es '41 - Antón Martín', ubicada a 110.0 metros.
+```
